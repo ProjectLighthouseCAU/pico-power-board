@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "SN74HC541NSR_lib")(type "KiCad")(uri "${KIPRJMOD}/SN74HC541NSR/Schematic/SN74HC541NSR_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "DC-Jack")(type "KiCad")(uri "${KIPRJMOD}/DC-Jack/Schematic/DC-Jack.kicad_sym")(options "")(descr ""))
+  (lib (name "K7803-500R3")(type "KiCad")(uri "${KIPRJMOD}/K7803-500R3/Schematic/K7803-500R3.kicad_sym")(options "")(descr ""))
+  (lib (name "TMP102AIDRLR")(type "KiCad")(uri "${KIPRJMOD}/TMP102AIDRLR/Schematic/TMP102AIDRLR.kicad_sym")(options "")(descr ""))
+)
