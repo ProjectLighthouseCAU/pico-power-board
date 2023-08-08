@@ -1,6 +1,8 @@
 (sym_lib_table
-  (lib (name "SN74HC541NSR_lib")(type "KiCad")(uri "${KIPRJMOD}/SN74HC541NSR/Schematic/SN74HC541NSR_lib.kicad_sym")(options "")(descr ""))
-  (lib (name "DC-Jack")(type "KiCad")(uri "${KIPRJMOD}/DC-Jack/Schematic/DC-Jack.kicad_sym")(options "")(descr ""))
-  (lib (name "K7803-500R3")(type "KiCad")(uri "${KIPRJMOD}/K7803-500R3/Schematic/K7803-500R3.kicad_sym")(options "")(descr ""))
-  (lib (name "TMP102AIDRLR")(type "KiCad")(uri "${KIPRJMOD}/TMP102AIDRLR/Schematic/TMP102AIDRLR.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "SN74HC541NSR_lib")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/SN74HC541NSR/Schematic/SN74HC541NSR_lib.kicad_sym")(options "")(descr ""))
+  (lib (name "DC-Jack-KoreanHROParts")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/DC-Jack-KoreanHROParts-C2686352/Schematic/DC-Jack.kicad_sym")(options "")(descr ""))
+  (lib (name "K7803-500R3")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/K7803-500R3/Schematic/K7803-500R3.kicad_sym")(options "")(descr ""))
+  (lib (name "TMP112AIDRLR")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/TMP102AIDRLR/Schematic/TMP102AIDRLR.kicad_sym")(options "")(descr ""))
+  (lib (name "DC-Jack-XKBConnectivity")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/DC-Jack-XKBConnectivity-C2880557/symbol/DC-042C-Z-2_5.kicad_sym")(options "")(descr ""))
 )

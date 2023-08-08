@@ -732,84 +732,89 @@
         )
       )
     )
-    (symbol "DC-Jack:DC-053D-25A" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J7" (at -1.651 -5.461 0)
+    (symbol "DC-Jack-XKBConnectivity:DC-042C-Z-2_5" (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 0 1.27 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "DC-053D-25A" (at -1.651 -8.001 0)
+      (property "Value" "DC-042C-Z-2_5" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Lighthouse:DC-IN-TH_DC-053D-25A-1" (at 0 -3.81 0)
+      (property "Footprint" "footprint:DC-IN-TH_DC-042C-Z-2.5" (at 0 -10.16 0)
         (effects (font (size 1.27 1.27) italic) hide)
       )
-      (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211013/02DB261FD23242C4DED947007A9F6266.pdf" (at -2.286 0.127 0)
+      (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211011/9233C538616C7B1E978D86EA72DEE16E.pdf" (at -2.286 0.127 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
-      (property "LCSC" "C2686352" (at 0 0 0)
+      (property "LCSC" "C2880557" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "JLC" "Plugin" (at 0 0 0)
+      (property "ki_keywords" "C2880557" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "C2686352" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "DC-053D-25A_0_0"
-        (arc (start -5.1878 -13.7103) (mid -4.0741 -12.8073) (end -4.9722 -11.6897)
+      (symbol "DC-042C-Z-2_5_0_1"
+        (arc (start -4.9722 151.39) (mid -4.0741 152.5076) (end -5.1878 153.4106)
           (stroke (width 0) (type default))
           (fill (type none))
         )
-        (rectangle (start 0 -11.176) (end 1.016 -14.224)
+        (polyline
+          (pts
+            (xy 0 -1.016)
+            (xy -5.08 -1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.016)
+            (xy -5.08 1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 0)
+            (xy 1.016 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy -4.826 -2.54)
+            (xy -5.334 -1.524)
+            (xy -5.842 -2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 2.54)
+            (xy -4.826 2.54)
+            (xy -5.334 1.524)
+            (xy -5.842 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0 1.524) (end 1.016 -1.524)
           (stroke (width 0) (type default))
           (fill (type background))
         )
-        (polyline
-          (pts
-            (xy 0 -13.716)
-            (xy -5.08 -13.716)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -11.684)
-            (xy -5.08 -11.684)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -12.7)
-            (xy 1.016 -12.7)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -15.24)
-            (xy -4.826 -15.24)
-            (xy -5.334 -14.224)
-            (xy -5.842 -15.24)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "DC-053D-25A_1_0"
-        (pin power_out line (at 7.62 -12.7 180) (length 5.08)
-          (name "1" (effects (font (size 1 1))))
-          (number "1" (effects (font (size 1 1))))
-        )
-        (pin power_out line (at 7.62 -15.24 180) (length 5.08)
+        (pin unspecified line (at 7.62 2.54 180) (length 5.08)
           (name "2" (effects (font (size 1 1))))
           (number "2" (effects (font (size 1 1))))
         )
-        (pin passive line (at 7.62 -10.16 180) (length 5.08)
+        (pin unspecified line (at 7.62 -2.54 180) (length 5.08)
           (name "3" (effects (font (size 1 1))))
           (number "3" (effects (font (size 1 1))))
+        )
+        (pin unspecified line (at 7.62 0 180) (length 5.08)
+          (name "4" (effects (font (size 1 1))))
+          (number "4" (effects (font (size 1 1))))
         )
       )
     )
@@ -3323,7 +3328,7 @@
   (symbol (lib_id "power:+3V3") (at 273.05 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01b4703f-99dd-455e-9672-15e197c62a22)
-    (property "Reference" "#PWR054" (at 273.05 111.76 0)
+    (property "Reference" "#PWR053" (at 273.05 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 276.86 106.045 0)
@@ -3339,7 +3344,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -3348,7 +3353,7 @@
   (symbol (lib_id "Device:R") (at 99.06 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 049db8e8-a831-4b4e-bdb1-5664a4863517)
-    (property "Reference" "R37" (at 94.488 98.298 90)
+    (property "Reference" "R24" (at 94.488 98.298 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 99.06 90)
@@ -3357,7 +3362,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 100.838 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 99.06 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 21c5080c-4b5c-4a75-991c-6cb305b95bec))
@@ -3365,7 +3376,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R37") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3399,7 +3410,7 @@
   (symbol (lib_id "power:GND") (at 209.55 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d15b612-3f99-4084-b07f-4bc9b43d471d)
-    (property "Reference" "#PWR041" (at 209.55 114.3 0)
+    (property "Reference" "#PWR042" (at 209.55 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 112.3934 0)
@@ -3415,7 +3426,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -3424,7 +3435,7 @@
   (symbol (lib_id "power:GND") (at 273.05 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d96ee45-6712-4558-9e74-d62e82063a5a)
-    (property "Reference" "#PWR055" (at 273.05 121.92 0)
+    (property "Reference" "#PWR054" (at 273.05 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 273.05 120.0134 0)
@@ -3440,7 +3451,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -3449,7 +3460,7 @@
   (symbol (lib_id "power:GND") (at 154.94 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e283b29-2cc2-4b3d-8af0-19d0f09f37de)
-    (property "Reference" "#PWR057" (at 154.94 81.28 0)
+    (property "Reference" "#PWR032" (at 154.94 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 79.3734 0)
@@ -3465,7 +3476,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3499,7 +3510,7 @@
   (symbol (lib_id "Device:R") (at 41.91 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1014994f-7369-4a4f-a12d-4555b8bdde40)
-    (property "Reference" "R24" (at 37.338 93.218 90)
+    (property "Reference" "R6" (at 37.338 93.218 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 93.98 90)
@@ -3508,7 +3519,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 93.98 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cd3cc82e-f2df-4bd8-8811-1fddec94f6b9))
@@ -3516,7 +3533,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R24") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -3525,7 +3542,7 @@
   (symbol (lib_id "Device:R") (at 67.31 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11d2fd93-7020-41c5-8db6-1fb083a613f5)
-    (property "Reference" "R3" (at 66.04 83.82 0)
+    (property "Reference" "R15" (at 66.04 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 66.04 81.28 0)
@@ -3548,7 +3565,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R3") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3589,7 +3606,7 @@
   (symbol (lib_id "power:+3V3") (at 267.97 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15eac5ec-b551-4ccd-b3d1-c4e8ae7f94b3)
-    (property "Reference" "#PWR053" (at 267.97 143.51 0)
+    (property "Reference" "#PWR052" (at 267.97 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 267.97 135.89 0)
@@ -3605,7 +3622,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -3614,7 +3631,7 @@
   (symbol (lib_id "power:GND") (at 224.79 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1d58e952-acc3-4454-aa6f-7959ed737a80)
-    (property "Reference" "#PWR043" (at 224.79 163.83 0)
+    (property "Reference" "#PWR047" (at 224.79 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 161.9234 0)
@@ -3630,7 +3647,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -3696,7 +3713,7 @@
   (symbol (lib_id "Device:R") (at 41.91 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 28ecd315-a84c-4a2b-a75d-18ab035e02f1)
-    (property "Reference" "R21" (at 37.338 57.658 90)
+    (property "Reference" "R5" (at 37.338 57.658 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 58.42 90)
@@ -3705,7 +3722,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 60.198 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 58.42 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5f767fdc-1cfd-423d-8012-1b8cd5515895))
@@ -3713,7 +3736,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R21") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3722,7 +3745,7 @@
   (symbol (lib_id "Device:C") (at 247.65 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30087b22-d3b0-4ff9-bbbb-5cb166a26f54)
-    (property "Reference" "C6" (at 248.92 142.24 0)
+    (property "Reference" "C5" (at 248.92 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF" (at 248.92 147.32 0)
@@ -3745,7 +3768,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "C6") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3754,7 +3777,7 @@
   (symbol (lib_id "Device:R") (at 252.73 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31f18e5e-a482-45f5-96ce-3947e8942c6a)
-    (property "Reference" "R15" (at 255.27 36.8299 0)
+    (property "Reference" "R41" (at 255.27 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 255.27 39.3699 0)
@@ -3777,7 +3800,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R15") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -3811,16 +3834,22 @@
   (symbol (lib_id "Device:R") (at 154.94 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3523cae8-5ca4-40ed-9df9-90c14d94efc1)
-    (property "Reference" "R23" (at 156.21 69.85 0)
+    (property "Reference" "R38" (at 156.21 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "200" (at 156.21 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 153.162 71.12 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 153.162 71.12 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 154.94 71.12 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191906_Ever-Ohms-Tech-TR0805F200RP0525Z_C881261.pdf" (at 154.94 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0805" (at 154.94 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881261" (at 154.94 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 04132ed6-3763-485a-a7e0-79d44d041d49))
@@ -3828,7 +3857,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R23") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -3837,7 +3866,7 @@
   (symbol (lib_id "power:GND") (at 193.04 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c072032-4f47-42b2-b306-7e6fce4defea)
-    (property "Reference" "#PWR033" (at 193.04 162.56 0)
+    (property "Reference" "#PWR041" (at 193.04 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 160.6534 0)
@@ -3853,7 +3882,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -3887,7 +3916,7 @@
   (symbol (lib_id "power:+12V") (at 176.53 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3dac4b65-dca9-44b2-9d4c-21eda683f949)
-    (property "Reference" "#PWR024" (at 176.53 144.78 0)
+    (property "Reference" "#PWR038" (at 176.53 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 176.53 137.3942 0)
@@ -3903,7 +3932,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3912,7 +3941,7 @@
   (symbol (lib_id "Device:R") (at 41.91 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f6a6b3f-d459-4efc-a775-cbd990473494)
-    (property "Reference" "R19" (at 37.338 52.578 90)
+    (property "Reference" "R3" (at 37.338 52.578 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 53.34 90)
@@ -3921,7 +3950,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 53.34 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c21c1078-cf1c-4a3f-8ecd-7500a2a64d2d))
@@ -3929,7 +3964,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R19") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3976,7 +4011,7 @@
   (symbol (lib_id "Device:R") (at 41.91 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44b8f835-fc0c-45b7-a052-560b8bf296c5)
-    (property "Reference" "R25" (at 37.338 98.298 90)
+    (property "Reference" "R7" (at 37.338 98.298 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 99.06 90)
@@ -3985,7 +4020,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 100.838 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 99.06 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8b1e57ca-6659-47c5-bd9c-bec01ed749ce))
@@ -3993,7 +4034,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R25") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -4002,7 +4043,7 @@
   (symbol (lib_id "power:+12V") (at 124.46 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45476d83-659b-4736-99b6-aa57da553999)
-    (property "Reference" "#PWR027" (at 124.46 74.93 0)
+    (property "Reference" "#PWR025" (at 124.46 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 121.92 67.31 0)
@@ -4018,7 +4059,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4109,7 +4150,7 @@
   (symbol (lib_id "Connector:Conn_01x20_Female") (at 198.12 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ceb3bf9-d7b9-46f7-b8f1-ac98e1090d3e)
-    (property "Reference" "J9" (at 198.755 20.955 0)
+    (property "Reference" "J10" (at 198.755 20.955 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x20_Female" (at 207.01 23.495 0)
@@ -4150,7 +4191,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -4184,7 +4225,7 @@
   (symbol (lib_id "power:GND") (at 161.29 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5022ee6b-7e93-4215-b3dc-4987c57f53f5)
-    (property "Reference" "#PWR023" (at 161.29 158.75 0)
+    (property "Reference" "#PWR033" (at 161.29 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 161.29 156.8434 0)
@@ -4200,7 +4241,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4234,7 +4275,7 @@
   (symbol (lib_id "power:GND") (at 222.25 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5371b2c2-d23f-409c-a201-52224790cf50)
-    (property "Reference" "#PWR047" (at 222.25 77.47 0)
+    (property "Reference" "#PWR045" (at 222.25 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 75.5634 0)
@@ -4250,7 +4291,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -4259,7 +4300,7 @@
   (symbol (lib_id "Device:C") (at 267.97 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55f9f8c0-aa60-4613-9c48-3f4ef2f196ea)
-    (property "Reference" "C7" (at 269.24 142.24 0)
+    (property "Reference" "C6" (at 269.24 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 269.24 147.32 0)
@@ -4282,7 +4323,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "C7") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4323,7 +4364,7 @@
   (symbol (lib_id "Device:R") (at 124.46 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 60e6505a-d9ab-4723-81aa-838d46f8b1ec)
-    (property "Reference" "R10" (at 123.19 83.82 0)
+    (property "Reference" "R33" (at 123.19 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 123.19 81.28 0)
@@ -4346,7 +4387,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R10") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -4380,7 +4421,7 @@
   (symbol (lib_id "Device:R") (at 124.46 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 644ba454-be5c-412f-86df-205469dda14d)
-    (property "Reference" "R13" (at 123.19 139.7 0)
+    (property "Reference" "R36" (at 123.19 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 123.19 137.16 0)
@@ -4403,7 +4444,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R13") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -4412,7 +4453,7 @@
   (symbol (lib_id "Device:R") (at 67.31 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 666f421e-03c2-4e97-b8b1-f8e4515cdb8a)
-    (property "Reference" "R2" (at 66.04 48.26 0)
+    (property "Reference" "R14" (at 66.04 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 66.04 45.72 0)
@@ -4435,7 +4476,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R2") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -4469,7 +4510,7 @@
   (symbol (lib_id "Device:C") (at 273.05 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a6fefe1-de3d-4d6d-8c20-bad479cc72b2)
-    (property "Reference" "C8" (at 276.479 110.4899 0)
+    (property "Reference" "C7" (at 276.479 110.4899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10nF" (at 276.479 113.0299 0)
@@ -4492,7 +4533,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "C8") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4526,7 +4567,7 @@
   (symbol (lib_id "Device:R") (at 99.06 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f0b0489-5cd4-488a-9c30-2eefb33fc0a7)
-    (property "Reference" "R40" (at 94.488 138.938 90)
+    (property "Reference" "R27" (at 94.488 138.938 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 139.7 90)
@@ -4535,7 +4576,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 141.478 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 139.7 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fd6570c3-f712-45f5-818f-1ff47849a73f))
@@ -4543,7 +4590,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R40") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -4602,7 +4649,7 @@
   (symbol (lib_id "Device:R") (at 67.31 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 73f100d3-fb34-433b-971a-163798cc1576)
-    (property "Reference" "R4" (at 66.04 93.98 0)
+    (property "Reference" "R16" (at 66.04 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 66.04 91.44 0)
@@ -4625,7 +4672,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R4") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -4634,7 +4681,7 @@
   (symbol (lib_id "Device:R") (at 261.62 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75c7ac94-cf4a-4522-968d-b3d09193afcd)
-    (property "Reference" "R16" (at 263.525 36.8299 0)
+    (property "Reference" "R42" (at 263.525 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 263.525 39.3699 0)
@@ -4657,7 +4704,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R16") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -4666,7 +4713,7 @@
   (symbol (lib_id "Device:R") (at 99.06 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7790a51e-024c-4630-b1a3-a550e6e29316)
-    (property "Reference" "R43" (at 94.488 149.098 90)
+    (property "Reference" "R30" (at 94.488 149.098 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 149.86 90)
@@ -4675,7 +4722,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 151.638 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 149.86 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a6772949-3c63-4a44-9e23-174b990bfbc3))
@@ -4683,7 +4736,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R43") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -4742,7 +4795,7 @@
   (symbol (lib_id "power:GND") (at 247.65 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 794df281-5d9e-4517-9588-94c8ede3629b)
-    (property "Reference" "#PWR052" (at 247.65 156.21 0)
+    (property "Reference" "#PWR051" (at 247.65 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 154.3034 0)
@@ -4758,7 +4811,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -4767,7 +4820,7 @@
   (symbol (lib_id "Device:R") (at 124.46 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e642204-1e7a-4d22-b3e3-9d5fef61dca3)
-    (property "Reference" "R12" (at 123.19 129.54 0)
+    (property "Reference" "R35" (at 123.19 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 123.19 127 0)
@@ -4790,7 +4843,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R12") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -4881,7 +4934,7 @@
   (symbol (lib_id "power:GND") (at 222.25 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 836a9076-0244-4a9d-afd5-0419d85cb7c3)
-    (property "Reference" "#PWR046" (at 222.25 64.77 0)
+    (property "Reference" "#PWR044" (at 222.25 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 62.8634 0)
@@ -4897,7 +4950,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -4906,16 +4959,22 @@
   (symbol (lib_id "Device:R") (at 154.94 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 841359e1-5fd6-4ba0-b48d-85521aa53154)
-    (property "Reference" "R22" (at 156.21 59.69 0)
+    (property "Reference" "R37" (at 156.21 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "200" (at 156.21 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 153.162 60.96 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 153.162 60.96 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 154.94 60.96 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191906_Ever-Ohms-Tech-TR0805F200RP0525Z_C881261.pdf" (at 154.94 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0805" (at 154.94 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881261" (at 154.94 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 90c9e50e-443c-4a79-95fc-e7e5314e8e6a))
@@ -4923,7 +4982,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R22") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -4957,7 +5016,7 @@
   (symbol (lib_id "Device:R") (at 99.06 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c04b86e-d498-4202-906e-70ab5ee55fc9)
-    (property "Reference" "R33" (at 94.488 52.578 90)
+    (property "Reference" "R20" (at 94.488 52.578 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 53.34 90)
@@ -4966,7 +5025,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 55.118 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 53.34 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d301650d-8b78-4fa5-8389-3ca07449481b))
@@ -4974,7 +5039,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R33") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -4983,7 +5048,7 @@
   (symbol (lib_id "Device:R") (at 99.06 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d5bc931-8b9e-432e-a25a-f72f246a1d08)
-    (property "Reference" "R41" (at 94.488 144.018 90)
+    (property "Reference" "R28" (at 94.488 144.018 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 144.78 90)
@@ -4992,7 +5057,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 146.558 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 144.78 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7e5463fd-1515-4932-ae40-82501aa1c5f2))
@@ -5000,7 +5071,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R41") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -5009,7 +5080,7 @@
   (symbol (lib_id "Device:R") (at 99.06 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8d81d258-8994-4468-aac8-a2b55f14ed4d)
-    (property "Reference" "R32" (at 94.488 47.498 90)
+    (property "Reference" "R19" (at 94.488 47.498 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 48.26 90)
@@ -5018,7 +5089,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 50.038 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 48.26 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cdf088a4-655f-4dcd-810b-23257c2481b4))
@@ -5026,7 +5103,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R32") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -5092,7 +5169,7 @@
   (symbol (lib_id "Device:R") (at 41.91 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94580014-09d2-4e6a-acaa-11db8211c389)
-    (property "Reference" "R18" (at 37.338 47.498 90)
+    (property "Reference" "R2" (at 37.338 47.498 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 48.26 90)
@@ -5101,7 +5178,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 50.038 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 48.26 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 48.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2ccbcfc5-fdab-4081-ab9a-bdc8339bf2c7))
@@ -5109,7 +5192,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R18") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -5118,7 +5201,7 @@
   (symbol (lib_id "Device:R") (at 124.46 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 959a1617-5a02-4522-95a2-7b107591a169)
-    (property "Reference" "R8" (at 123.19 38.1 0)
+    (property "Reference" "R31" (at 123.19 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 123.19 35.56 0)
@@ -5141,7 +5224,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R8") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -5150,7 +5233,7 @@
   (symbol (lib_id "Device:R") (at 41.91 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95df1e27-5061-4e0d-9357-c11b779fc5df)
-    (property "Reference" "R20" (at 37.338 55.118 90)
+    (property "Reference" "R4" (at 37.338 55.118 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 55.88 90)
@@ -5159,7 +5242,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 57.658 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 55.88 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid acf9dfd6-a855-449a-b834-6fd8adf8bddd))
@@ -5167,7 +5256,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R20") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -5201,7 +5290,7 @@
   (symbol (lib_id "Device:R") (at 99.06 58.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 984eedcc-59fa-4beb-a33e-daa74dc726ad)
-    (property "Reference" "R35" (at 94.488 57.658 90)
+    (property "Reference" "R22" (at 94.488 57.658 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 58.42 90)
@@ -5210,7 +5299,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 60.198 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 58.42 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 83093bbe-0dbd-4b26-99e5-1be4c25c47a0))
@@ -5218,7 +5313,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R35") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -5227,7 +5322,7 @@
   (symbol (lib_id "power:GND") (at 153.67 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9940c868-3359-480e-9dfd-4ac0a4f2c15c)
-    (property "Reference" "#PWR050" (at 153.67 119.38 0)
+    (property "Reference" "#PWR030" (at 153.67 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 117.4734 0)
@@ -5243,7 +5338,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -5252,7 +5347,7 @@
   (symbol (lib_id "K7803-500R3:K7803-500R3") (at 248.92 133.35 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a476143-fdd7-4b32-bd6f-171f808ddb8e)
-    (property "Reference" "U4" (at 263.652 130.302 90)
+    (property "Reference" "U3" (at 263.652 130.302 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "K7803-500R3" (at 263.779 132.08 90)
@@ -5261,10 +5356,10 @@
     (property "Footprint" "Lighthouse:PWRM-TH_K7803-500R3" (at 270.51 133.35 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://item.szlcsc.com/87913.html" (at 273.05 149.86 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2011180207_DEXU-Electronics-K7803-500R3_C909766.pdf" (at 273.05 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "LCSC" "C86736" (at 267.97 133.35 0)
+    (property "LCSC" "C909766" (at 267.97 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "JLC" "Plugin" (at 248.92 133.35 0)
@@ -5276,7 +5371,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "U4") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -5285,7 +5380,7 @@
   (symbol (lib_id "Device:R") (at 99.06 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a984c5f-fdf5-4d78-a022-5ea4e76115f9)
-    (property "Reference" "R38" (at 94.488 100.838 90)
+    (property "Reference" "R25" (at 94.488 100.838 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 101.6 90)
@@ -5294,7 +5389,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 103.378 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 101.6 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15632552-227f-4a59-9a53-3b8b8aba399b))
@@ -5302,7 +5403,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R38") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -5311,7 +5412,7 @@
   (symbol (lib_id "Device:C") (at 242.57 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9df4eb4a-1eda-4f66-8f3b-dedd8d00de99)
-    (property "Reference" "C5" (at 246.253 36.8299 0)
+    (property "Reference" "C4" (at 246.253 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22pF" (at 246.253 39.3699 0)
@@ -5334,7 +5435,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "C5") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -5343,7 +5444,7 @@
   (symbol (lib_id "power:GND") (at 124.46 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0291e2b-f052-4546-84e2-afc4ca44b9ca)
-    (property "Reference" "#PWR026" (at 124.46 57.15 0)
+    (property "Reference" "#PWR024" (at 124.46 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 55.245 0)
@@ -5359,7 +5460,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5368,7 +5469,7 @@
   (symbol (lib_id "power:+12V") (at 124.46 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a2ec227f-f12c-4a92-a537-7ea08ab81d92)
-    (property "Reference" "#PWR029" (at 124.46 120.65 0)
+    (property "Reference" "#PWR027" (at 124.46 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 121.92 113.03 0)
@@ -5384,7 +5485,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -5443,7 +5544,7 @@
   (symbol (lib_id "power:+3V3") (at 193.04 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a3f1c3b8-66f3-4be1-b2d1-ffa812dbf1a5)
-    (property "Reference" "#PWR032" (at 193.04 132.08 0)
+    (property "Reference" "#PWR040" (at 193.04 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 196.85 126.365 0)
@@ -5459,7 +5560,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -5493,7 +5594,7 @@
   (symbol (lib_id "Device:R") (at 176.53 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a640a2cd-b0dd-4e31-bede-0316c3366577)
-    (property "Reference" "R7" (at 178.435 144.7799 0)
+    (property "Reference" "R39" (at 178.435 144.7799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10m" (at 178.435 147.3199 0)
@@ -5516,7 +5617,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R7") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -5525,7 +5626,7 @@
   (symbol (lib_id "Device:R") (at 124.46 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8db6aad-6cc1-419d-8231-40222e38ea71)
-    (property "Reference" "R11" (at 123.19 93.98 0)
+    (property "Reference" "R34" (at 123.19 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 123.19 91.44 0)
@@ -5548,7 +5649,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R11") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -5557,7 +5658,7 @@
   (symbol (lib_id "Device:R") (at 41.91 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa02fbe5-a773-466a-b6b8-b7bc4d33512c)
-    (property "Reference" "R28" (at 37.338 138.938 90)
+    (property "Reference" "R9" (at 37.338 138.938 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 139.7 90)
@@ -5566,7 +5667,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 141.478 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 139.7 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 96b7750c-a51a-405b-bbe5-0450d2e0bb54))
@@ -5574,7 +5681,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R28") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -5633,7 +5740,7 @@
   (symbol (lib_id "power:+3V3") (at 224.79 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid abe557fc-3d8e-49db-b70f-408f4ce018f7)
-    (property "Reference" "#PWR042" (at 224.79 146.05 0)
+    (property "Reference" "#PWR046" (at 224.79 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 224.79 138.43 0)
@@ -5649,7 +5756,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -5658,7 +5765,7 @@
   (symbol (lib_id "Device:R") (at 41.91 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b414a061-0b31-4c2c-bf0a-a6050a18cb7c)
-    (property "Reference" "R29" (at 37.338 144.018 90)
+    (property "Reference" "R10" (at 37.338 144.018 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 144.78 90)
@@ -5667,7 +5774,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 146.558 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 144.78 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c7aaec23-abb4-453c-9894-53b24b6951f4))
@@ -5675,7 +5788,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R29") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -5684,7 +5797,7 @@
   (symbol (lib_id "power:+3V3") (at 153.67 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4e5cb34-921f-4710-9bca-f007fcbf65f5)
-    (property "Reference" "#PWR049" (at 153.67 114.3 0)
+    (property "Reference" "#PWR029" (at 153.67 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 153.67 106.68 0)
@@ -5700,7 +5813,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5709,7 +5822,7 @@
   (symbol (lib_id "Device:R") (at 41.91 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b57bc0bb-5e19-4048-9b51-926380a3b7e3)
-    (property "Reference" "R26" (at 37.338 100.838 90)
+    (property "Reference" "R8" (at 37.338 100.838 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 101.6 90)
@@ -5718,7 +5831,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 103.378 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 101.6 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a589f58b-6eb5-4429-97df-97561fde3969))
@@ -5726,7 +5845,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R26") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -5760,7 +5879,7 @@
   (symbol (lib_id "power:+12V") (at 124.46 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b712dcc3-23b3-4440-89db-76fd12f3bcdd)
-    (property "Reference" "#PWR025" (at 124.46 29.21 0)
+    (property "Reference" "#PWR023" (at 124.46 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 121.92 21.59 0)
@@ -5776,7 +5895,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5810,7 +5929,7 @@
   (symbol (lib_id "Device:R") (at 99.06 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7b00f7a-0d9b-4e70-ac14-cfea9d01baf1)
-    (property "Reference" "R42" (at 94.488 146.558 90)
+    (property "Reference" "R29" (at 94.488 146.558 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 147.32 90)
@@ -5819,7 +5938,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 149.098 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 147.32 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c121e330-bc0c-48d6-babc-a2bd66f53e71))
@@ -5827,7 +5952,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R42") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -5836,7 +5961,7 @@
   (symbol (lib_id "Device:R") (at 270.51 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8a802bc-3d5d-45c1-9071-488fce5de6b4)
-    (property "Reference" "R17" (at 272.415 36.8299 0)
+    (property "Reference" "R43" (at 272.415 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3.3k" (at 272.415 39.3699 0)
@@ -5859,7 +5984,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R17") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -5868,7 +5993,7 @@
   (symbol (lib_id "power:+3V3") (at 154.94 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b992722f-0d39-4c53-8691-472c8a87c6c4)
-    (property "Reference" "#PWR056" (at 154.94 60.96 0)
+    (property "Reference" "#PWR031" (at 154.94 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 154.94 53.5742 0)
@@ -5884,7 +6009,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -5893,7 +6018,7 @@
   (symbol (lib_id "Device:R") (at 41.91 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9d70a66-c7c7-4da2-a6a5-22bcc9c14e79)
-    (property "Reference" "R31" (at 37.338 149.098 90)
+    (property "Reference" "R12" (at 37.338 149.098 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 149.86 90)
@@ -5902,7 +6027,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 151.638 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 149.86 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 666c761c-7baa-45e4-9ffb-2b3ee06819f2))
@@ -5910,7 +6041,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R31") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -5919,7 +6050,7 @@
   (symbol (lib_id "Connector:Conn_01x20_Female") (at 182.88 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbaebc8e-da83-4c79-bc06-6fb47756e8d9)
-    (property "Reference" "J8" (at 180.34 21.59 0)
+    (property "Reference" "J9" (at 180.34 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x20_Female" (at 163.83 24.13 0)
@@ -5960,7 +6091,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -5969,7 +6100,7 @@
   (symbol (lib_id "Device:R") (at 41.91 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcfa5598-676b-4cc4-8537-c6710189111b)
-    (property "Reference" "R30" (at 37.338 146.558 90)
+    (property "Reference" "R11" (at 37.338 146.558 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.91 147.32 90)
@@ -5978,7 +6109,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.91 149.098 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.91 147.32 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.91 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.91 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.91 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6ca7c4b2-4e9c-476e-90d4-2853f3d3f288))
@@ -5986,7 +6123,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R30") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5995,7 +6132,7 @@
   (symbol (lib_id "Device:R") (at 41.8291 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd70ae78-a684-4eb6-aa9e-0dad2331109b)
-    (property "Reference" "R27" (at 37.338 103.378 90)
+    (property "Reference" "R1" (at 37.338 103.378 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 41.8291 104.14 90)
@@ -6004,7 +6141,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 41.8291 105.918 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 41.8291 104.14 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 41.8291 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 41.8291 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 41.8291 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cdcf9d70-39f1-4a56-baab-ef45f6cf3609))
@@ -6012,7 +6155,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R27") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -6021,7 +6164,7 @@
   (symbol (lib_id "Device:R") (at 99.06 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf0c1a27-b460-47a7-9515-f7d4efb8f4c4)
-    (property "Reference" "R34" (at 94.488 55.118 90)
+    (property "Reference" "R21" (at 94.488 55.118 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 55.88 90)
@@ -6030,7 +6173,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 57.658 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 55.88 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 85459a05-98c7-45f0-9b7b-acf55c045dd7))
@@ -6038,7 +6187,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R34") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -6072,7 +6221,7 @@
   (symbol (lib_id "Device:C") (at 236.22 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c32707d6-b762-42e2-b07a-92a1fb5acf1d)
-    (property "Reference" "C4" (at 239.776 143.5099 0)
+    (property "Reference" "C3" (at 239.776 143.5099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 239.776 146.0499 0)
@@ -6095,7 +6244,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -6104,7 +6253,7 @@
   (symbol (lib_id "power:GND") (at 222.25 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c538a5a8-6aba-4e59-8fac-c64d4bf4546a)
-    (property "Reference" "#PWR044" (at 222.25 39.37 0)
+    (property "Reference" "#PWR043" (at 222.25 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 36.195 0)
@@ -6120,7 +6269,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -6129,7 +6278,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Pin") (at 177.8 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c77901f2-c1d0-4d68-be98-1b4adb2ff728)
-    (property "Reference" "J10" (at 169.037 114.935 0)
+    (property "Reference" "J8" (at 169.037 114.935 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x06_Male" (at 169.037 117.475 0)
@@ -6156,7 +6305,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "J10") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -6190,7 +6339,7 @@
   (symbol (lib_id "Device:R") (at 67.31 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cb3854cf-6d51-46bd-9a88-64296a3792b2)
-    (property "Reference" "R6" (at 66.04 139.7 0)
+    (property "Reference" "R18" (at 66.04 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 66.04 137.16 0)
@@ -6213,7 +6362,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R6") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -6247,7 +6396,7 @@
   (symbol (lib_id "power:+12V") (at 247.65 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cec0b574-dcf9-4abb-b91a-e0724915b2f0)
-    (property "Reference" "#PWR051" (at 247.65 143.51 0)
+    (property "Reference" "#PWR050" (at 247.65 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 247.65 136.1242 0)
@@ -6263,7 +6412,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -6272,7 +6421,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise") (at 111.76 93.98 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0289f45-63bb-4895-a590-be3ea1b18e8f)
-    (property "Reference" "J6" (at 111.76 111.76 0)
+    (property "Reference" "J5" (at 111.76 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_02x10_Counter_Clockwise" (at 123.19 109.22 0)
@@ -6313,7 +6462,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "J6") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -6322,7 +6471,7 @@
   (symbol (lib_id "Device:R") (at 67.31 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d247ae29-7439-4381-a49d-d2d2a48ab75d)
-    (property "Reference" "R1" (at 66.04 38.1 0)
+    (property "Reference" "R13" (at 66.04 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 66.04 35.56 0)
@@ -6345,7 +6494,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R1") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -6379,7 +6528,7 @@
   (symbol (lib_id "Device:R") (at 67.31 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d50e16a1-b1c0-4af5-a051-4293e975d79b)
-    (property "Reference" "R5" (at 66.04 129.54 0)
+    (property "Reference" "R17" (at 66.04 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "30k" (at 66.04 127 0)
@@ -6402,7 +6551,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R5") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -6436,7 +6585,7 @@
   (symbol (lib_id "power:GND") (at 242.57 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc3d0140-9ba2-429f-9dd6-40b4c434a8fd)
-    (property "Reference" "#PWR045" (at 242.57 52.07 0)
+    (property "Reference" "#PWR049" (at 242.57 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 45.72 0)
@@ -6452,7 +6601,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -6461,7 +6610,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise") (at 111.76 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0d61b76-4f89-42c3-abac-ab0823b6b231)
-    (property "Reference" "J5" (at 111.76 66.04 0)
+    (property "Reference" "J4" (at 111.76 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_02x10_Counter_Clockwise" (at 123.19 63.5 0)
@@ -6502,7 +6651,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "J5") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -6511,7 +6660,7 @@
   (symbol (lib_id "power:GND") (at 182.88 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e14a6cc6-873b-431c-bd31-9f57eefcb862)
-    (property "Reference" "#PWR031" (at 182.88 142.24 0)
+    (property "Reference" "#PWR039" (at 182.88 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 140.3334 0)
@@ -6527,7 +6676,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -6536,7 +6685,7 @@
   (symbol (lib_id "Device:R") (at 224.79 153.67 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1c46826-37c2-4b61-94ef-1793fde44202)
-    (property "Reference" "R14" (at 226.695 152.3999 0)
+    (property "Reference" "R40" (at 226.695 152.3999 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "68" (at 226.695 154.9399 0)
@@ -6559,7 +6708,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R14") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -6593,7 +6742,7 @@
   (symbol (lib_id "power:GND") (at 124.46 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea4e94ad-128d-4329-bda8-aec85267f303)
-    (property "Reference" "#PWR030" (at 124.46 148.59 0)
+    (property "Reference" "#PWR028" (at 124.46 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 122.555 146.05 0)
@@ -6609,7 +6758,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -6618,7 +6767,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x10_Counter_Clockwise") (at 111.76 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec1ddf8f-059b-4c9d-bfae-c18a478538d5)
-    (property "Reference" "J7" (at 111.76 157.48 0)
+    (property "Reference" "J6" (at 111.76 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_02x10_Counter_Clockwise" (at 123.19 154.94 0)
@@ -6659,7 +6808,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "J7") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -6668,7 +6817,7 @@
   (symbol (lib_id "Device:R") (at 99.06 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eedb92d7-d2d0-4084-940c-0c1b40b5202b)
-    (property "Reference" "R36" (at 94.488 93.218 90)
+    (property "Reference" "R23" (at 94.488 93.218 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 93.98 90)
@@ -6677,7 +6826,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 95.758 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 93.98 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1e030327-d398-4765-9750-53df70e18692))
@@ -6685,7 +6840,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R36") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -6694,7 +6849,7 @@
   (symbol (lib_id "Device:R") (at 124.46 46.99 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5811e79-2e11-4adf-9154-8200fa38bb99)
-    (property "Reference" "R9" (at 123.19 48.26 0)
+    (property "Reference" "R32" (at 123.19 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 123.19 45.72 0)
@@ -6717,7 +6872,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R9") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -6726,7 +6881,7 @@
   (symbol (lib_id "Device:R") (at 99.06 104.14 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f81c0f03-a5ec-4789-b119-01d24b46d9f5)
-    (property "Reference" "R39" (at 94.488 103.378 90)
+    (property "Reference" "R26" (at 94.488 103.378 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 99.06 104.14 90)
@@ -6735,7 +6890,13 @@
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 99.06 105.918 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 99.06 104.14 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2010191934_Ever-Ohms-Tech-CR0603J100KP05Z_C881354.pdf" (at 99.06 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0603" (at 99.06 104.14 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C881354" (at 99.06 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 54bc1547-07a4-4bc4-a872-9d77d7ba7349))
@@ -6743,40 +6904,40 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "R39") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "DC-Jack:DC-053D-25A") (at 152.4 137.16 0) (unit 1)
+  (symbol (lib_id "DC-Jack-XKBConnectivity:DC-042C-Z-2_5") (at 152.4 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f938ebf0-1216-4332-9736-9d68ee86fc98)
-    (property "Reference" "J4" (at 150.749 142.621 0)
+    (property "Reference" "J7" (at 150.749 -7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DC-053D-25A" (at 150.749 145.161 0)
+    (property "Value" "DC-042C-Z-2.5" (at 150.749 -5.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Lighthouse:DC-IN-TH_DC-053D-25A-1" (at 152.4 140.97 0)
+    (property "Footprint" "Lighthouse:DC-IN-TH_DC-042C-Z-2.5" (at 152.4 160.02 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
-    (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211013/02DB261FD23242C4DED947007A9F6266.pdf" (at 150.114 137.033 0)
+    (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211011/9233C538616C7B1E978D86EA72DEE16E.pdf" (at 150.114 149.733 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "LCSC" "C2686352" (at 152.4 137.16 0)
+    (property "LCSC" "C2880557" (at 152.4 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JLC" "Plugin" (at 152.4 137.16 0)
+    (property "JLC" "Plugin" (at 152.4 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b09740e5-bacb-4116-8297-f2b9e8c43dda))
     (pin "2" (uuid c4655857-514c-43e4-b96f-e64d21607c95))
     (pin "3" (uuid 80871890-71b6-45ce-90af-0845f4123906))
+    (pin "4" (uuid 1aaebdf9-5de1-4323-aade-6e3151111c73))
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "J4") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -6849,7 +7010,7 @@
   (symbol (lib_id "Device:C") (at 229.87 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc861443-a60a-4357-9c75-30b4c81c28e5)
-    (property "Reference" "C3" (at 233.553 36.8299 0)
+    (property "Reference" "C2" (at 233.553 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 233.553 39.3699 0)
@@ -6872,7 +7033,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -6881,7 +7042,7 @@
   (symbol (lib_id "power:GND") (at 124.46 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fdc59278-f9ff-4f00-898f-aa9a77819c7d)
-    (property "Reference" "#PWR028" (at 124.46 102.87 0)
+    (property "Reference" "#PWR026" (at 124.46 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 124.46 101.6 0)
@@ -6897,7 +7058,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -6956,7 +7117,7 @@
   (symbol (lib_id "TMP102AIDRLR:TMP102AIDRLR") (at 241.3 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffa1a1bd-8569-42f9-8f7b-c9b3a22c62b0)
-    (property "Reference" "U3" (at 241.3 98.044 0)
+    (property "Reference" "U2" (at 241.3 98.044 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TMP112AIDRLR" (at 241.3 100.584 0)
@@ -6983,7 +7144,7 @@
     (instances
       (project "pico-power-board"
         (path "/5bc25f0e-b3e0-4374-ab09-b14788ee45d5"
-          (reference "U3") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
