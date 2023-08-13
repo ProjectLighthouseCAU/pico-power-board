@@ -5,4 +5,5 @@
   (lib (name "K7803-500R3")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/K7803-500R3/Schematic/K7803-500R3.kicad_sym")(options "")(descr ""))
   (lib (name "TMP112AIDRLR")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/TMP102AIDRLR/Schematic/TMP102AIDRLR.kicad_sym")(options "")(descr ""))
   (lib (name "DC-Jack-XKBConnectivity")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/DC-Jack-XKBConnectivity-C2880557/symbol/DC-042C-Z-2_5.kicad_sym")(options "")(descr ""))
+  (lib (name "74LVC1G125GW,125")(type "KiCad")(uri "${KIPRJMOD}/imported_footprints/Tri-State-Buffer_74LVC1G125GW/symbol/74LVC1G125GW,125.kicad_sym")(options "")(descr ""))
 )
